@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+   <metadata minClientVersion="2.8.1">
+       <id>detroitpro.Forms.Plugin.ExtendedEntryControl</id>
+       <version>0.0.9</version>
+       <title>ExtendedEntryControl Plugin for Xamarin.Forms</title>
+       <authors>Eric Polerecky</authors>
+       <owners>Eric Polerecky</owners>
+        <licenseUrl>https://github.com/detroitpro/ExtendedEntryControl.Plugin/blob/master/LICENSE</licenseUrl>
+       <projectUrl>https://github.com/detroitpro/ExtendedEntryControl.Plugin</projectUrl>
+     <iconUrl>https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon_nuget.png</iconUrl>
+     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+       <description>Extended entry, originally based on XLabs extended entry control</description>
+       <summary>Extended entry, originally based on XLabs extended entry control</summary>
+       <tags>xamarin, pcl, xam.pcl, plugin, plugin for xamarin.forms, windows phone, winphone, wp8, android, xamarin.forms, ios</tags>
+       <dependencies></dependencies>
+   </metadata>
+   <files>
+	<!--Core-->
+     <file src="ExtendedEntryControl\ExtendedEntryControl.Forms.Plugin.Abstractions\bin\Release\ExtendedEntryControl.Forms.Plugin.Abstractions.dll" target="lib\portable-net45+wp8+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\ExtendedEntryControl.Forms.Plugin.Abstractions.dll" />
+     <file src="ExtendedEntryControl\ExtendedEntryControl.Forms.Plugin.Abstractions\bin\Release\ExtendedEntryControl.Forms.Plugin.Abstractions.xml" target="lib\portable-net45+wp8+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\ExtendedEntryControl.Forms.Plugin.Abstractions.xml" />
+     <file src="ExtendedEntryControl\ExtendedEntryControl.Forms.Plugin.Abstractions\bin\Release\ExtendedEntryControl.Forms.Plugin.Abstractions.pdb" target="lib\portable-net45+wp8+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\ExtendedEntryControl.Forms.Plugin.Abstractions.pdb" />
+
+     <!--Win Phone Silverlight-->
+     <file src="ExtendedEntryControl\ExtendedEntryControl.Forms.Plugin.WindowsPhone\bin\Release\ExtendedEntryControl.Forms.Plugin.WindowsPhone.dll" target="lib\wp8\ExtendedEntryControl.Forms.Plugin.WindowsPhone.dll" />
+     <file src="ExtendedEntryControl\ExtendedEntryControl.Forms.Plugin.WindowsPhone\bin\Release\ExtendedEntryControl.Forms.Plugin.WindowsPhone.xml" target="lib\wp8\ExtendedEntryControl.Forms.Plugin.WindowsPhone.xml" />
+     <file src="ExtendedEntryControl\ExtendedEntryControl.Forms.Plugin.WindowsPhone\bin\Release\ExtendedEntryControl.Forms.Plugin.WindowsPhone.pdb" target="lib\wp8\ExtendedEntryControl.Forms.Plugin.WindowsPhone.pdb" />
+     <file src="ExtendedEntryControl\ExtendedEntryControl.Forms.Plugin.Abstractions\bin\Release\ExtendedEntryControl.Forms.Plugin.Abstractions.dll" target="lib\wp8\ExtendedEntryControl.Forms.Plugin.Abstractions.dll" />
+     <file src="ExtendedEntryControl\ExtendedEntryControl.Forms.Plugin.Abstractions\bin\Release\ExtendedEntryControl.Forms.Plugin.Abstractions.xml" target="lib\wp8\ExtendedEntryControl.Forms.Plugin.Abstractions.xml" />
+     <file src="ExtendedEntryControl\ExtendedEntryControl.Forms.Plugin.Abstractions\bin\Release\ExtendedEntryControl.Forms.Plugin.Abstractions.pdb" target="lib\wp8\ExtendedEntryControl.Forms.Plugin.Abstractions.pdb" />
+
+     
+     <!--Xamarin.Android-->
+     <file src="ExtendedEntryControl\ExtendedEntryControl.Forms.Plugin.Android\bin\Release\ExtendedEntryControl.Forms.Plugin.Android.dll" target="lib\MonoAndroid10\ExtendedEntryControl.Forms.Plugin.Android.dll" />
+     <file src="ExtendedEntryControl\ExtendedEntryControl.Forms.Plugin.Android\bin\Release\ExtendedEntryControl.Forms.Plugin.Android.xml" target="lib\MonoAndroid10\ExtendedEntryControl.Forms.Plugin.Android.xml" />
+     <file src="ExtendedEntryControl\ExtendedEntryControl.Forms.Plugin.Android\bin\Release\ExtendedEntryControl.Forms.Plugin.Android.pdb" target="lib\MonoAndroid10\ExtendedEntryControl.Forms.Plugin.Android.pdb" />
+     <file src="ExtendedEntryControl\ExtendedEntryControl.Forms.Plugin.Abstractions\bin\Release\ExtendedEntryControl.Forms.Plugin.Abstractions.dll" target="lib\MonoAndroid10\ExtendedEntryControl.Forms.Plugin.Abstractions.dll" />
+     <file src="ExtendedEntryControl\ExtendedEntryControl.Forms.Plugin.Abstractions\bin\Release\ExtendedEntryControl.Forms.Plugin.Abstractions.xml" target="lib\MonoAndroid10\ExtendedEntryControl.Forms.Plugin.Abstractions.xml" />
+     <file src="ExtendedEntryControl\ExtendedEntryControl.Forms.Plugin.Abstractions\bin\Release\ExtendedEntryControl.Forms.Plugin.Abstractions.pdb" target="lib\MonoAndroid10\ExtendedEntryControl.Forms.Plugin.Abstractions.pdb" />
+
+     <!--Xamarin.iOS-->
+     <file src="ExtendedEntryControl\ExtendedEntryControl.Forms.Plugin.iOS\bin\iPhone\Release\ExtendedEntryControl.Forms.Plugin.iOS.dll" target="lib\MonoTouch10\ExtendedEntryControl.Forms.Plugin.iOS.dll" />
+     <file src="ExtendedEntryControl\ExtendedEntryControl.Forms.Plugin.iOS\bin\iPhone\Release\ExtendedEntryControl.Forms.Plugin.iOS.xml" target="lib\MonoTouch10\ExtendedEntryControl.Forms.Plugin.iOS.xml" />
+     <file src="ExtendedEntryControl\ExtendedEntryControl.Forms.Plugin.Abstractions\bin\Release\ExtendedEntryControl.Forms.Plugin.Abstractions.dll" target="lib\MonoTouch10\ExtendedEntryControl.Forms.Plugin.Abstractions.dll" />
+     <file src="ExtendedEntryControl\ExtendedEntryControl.Forms.Plugin.Abstractions\bin\Release\ExtendedEntryControl.Forms.Plugin.Abstractions.xml" target="lib\MonoTouch10\ExtendedEntryControl.Forms.Plugin.Abstractions.xml" />
+
+     <!--Xamarin.iOSUnified-->
+     <file src="ExtendedEntryControl\ExtendedEntryControl.Forms.Plugin.iOSUnified\bin\iPhone\Release\ExtendedEntryControl.Forms.Plugin.iOSUnified.dll" target="lib\Xamarin.iOS10\ExtendedEntryControl.Forms.Plugin.iOSUnified.dll" />
+     <file src="ExtendedEntryControl\ExtendedEntryControl.Forms.Plugin.iOSUnified\bin\iPhone\Release\ExtendedEntryControl.Forms.Plugin.iOSUnified.xml" target="lib\Xamarin.iOS10\ExtendedEntryControl.Forms.Plugin.iOSUnified.xml" />
+     <file src="ExtendedEntryControl\ExtendedEntryControl.Forms.Plugin.Abstractions\bin\Release\ExtendedEntryControl.Forms.Plugin.Abstractions.dll" target="lib\Xamarin.iOS10\ExtendedEntryControl.Forms.Plugin.Abstractions.dll" />
+     <file src="ExtendedEntryControl\ExtendedEntryControl.Forms.Plugin.Abstractions\bin\Release\ExtendedEntryControl.Forms.Plugin.Abstractions.xml" target="lib\Xamarin.iOS10\ExtendedEntryControl.Forms.Plugin.Abstractions.xml" />
+   </files>
+</package>
